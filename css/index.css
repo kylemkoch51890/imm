@@ -1,0 +1,13 @@
+/* Header */
+header a.logo {
+  background: url(../images/IMM_Logo_White.svg) no-repeat 0 0;
+}
+
+section.about {
+  margin-top: 15px;
+  display: block;
+}
+
+section.mission {
+  background-color: #06659c;
+}

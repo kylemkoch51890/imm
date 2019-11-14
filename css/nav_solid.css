@@ -1,0 +1,143 @@
+nav {
+  background-color: #e8e8e8;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 50px 0 0 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-left: 32px solid #06659c;
+}
+
+nav::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+nav ul li:hover {
+  background-color: #e8e8e8;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #06659c;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: auto;
+  position: relative;
+}
+
+nav ul li a:visited {
+  color: #06659c;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  background-color: #e8e8e8;
+  display: none;
+}
+
+nav ul ul li {
+  position: relative;
+}
+
+nav ul ul ul {
+  left: 100%;
+  top: 0px;
+}
+
+/* Top Level */
+
+nav > ul {
+  padding-left: 200px;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li > a {
+  width: auto;
+  padding: 10px 20px 15px 20px;
+}
+
+nav a[aria-haspopup="true"]::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #000;
+}
+
+nav > ul > li > a[aria-haspopup="true"]::after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #06659c;
+  left: 20px;
+  right: auto;
+  bottom: 6px;
+  top: auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-witdh: 760px) {
+  /* Navagation */
+  nav {padding-top: 80px;}
+  nav > ul {padding-left: 10px;}
+
+}
+
+@media screen and (max-width: 625px) {
+  /* Navagation */
+  nav {position: static; width: auto; padding: 20px 15px; background-color: #e8e8e8;}
+
+  nav ul,
+  nav ul ul,
+  nav ul ul ul {display: block; position: static;}
+
+  nav > ul {padding: 0;}
+  nav > ul > li {float: none; margin-top: 20px;}
+
+  nav ul li:hover {background: none;}
+
+  nav ul li a {
+    width: auto;
+    display: block;
+    margin: 8px 10px;
+    padding: 8px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+  nav ul li a:hover {background-color: rgba(182, 182, 182, 0.2);}
+
+  nav ul ul {background: none;}
+
+  nav ul ul li a {margin-left: 30px;}
+
+  nav ul ul ul li a {margin-left: 60px;}
+
+  nav a[aria-haspopup="true"]::after {display: none;}
+}

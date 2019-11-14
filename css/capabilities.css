@@ -1,0 +1,75 @@
+/* Header */
+header a.logo {
+  background: url(../images/IMM_Logo.svg) no-repeat 0 0;
+}
+
+section.capabilities {
+  margin-top: 15px;
+  padding: 6vh 0;
+  background-color: #e8e8e8;
+}
+
+section::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* Section Main */
+
+section.keywords {
+  background-image: linear-gradient(180deg, rgba(77, 124, 138, .5), rgba(77, 124, 138, 0.4) 50%, rgba(77, 124, 138, 0.3) 60%, rgba(77, 124, 138, 0.1)), url(../images/machine_bkg.png);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0;
+  color: #fff;
+}
+
+section.keywords .container {
+  margin: 0 auto;
+  padding: 0;
+}
+
+section.keywords aside {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+section.keywords .content {
+  height: 15vh;
+  margin: 15px 30px 15px 0;
+  background: no-repeat center top;
+  background-size: 75px 75px;
+  padding: 15px;
+  background: rgba(31,31,31,.8);
+}
+
+section.keywords .content h3 {
+  text-transform: uppercase;
+}
+
+.col-md-6 {
+  margin-top: -6vh;
+  padding-top: 6vh;
+}
+
+.col-md-6:first-child {
+  padding-left: 0;
+}
+
+.col-md-6:last-child {
+  padding-left: 30px;
+}
+
+.col-md-6:last-child:before {
+  position: absolute;
+  content: "";
+  display: block;
+  background: rgba(0,0,0,.1);
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  left: 0;
+  margin-bottom: -6vh;
+}
