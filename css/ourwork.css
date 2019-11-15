@@ -10,10 +10,6 @@ section.our-machines {
   margin-top: 15px;
 }
 
-.needed {
-  border: 10px dotted pink;
-}
-
 .our-work {
   text-align: center;
   background-color: #e8e8e8;
@@ -58,8 +54,20 @@ section.our-machines {
   border-bottom-right-radius: 3px;
 }
 
-.our-machines {
-  border: 10px dotted pink;
+.fixtures h4 {
+  color: hotpink;
+}
+
+.fabrication h4 {
+  color: hotpink;
+}
+
+.patterns-molds h4 {
+  color: hotpink;
+}
+
+.our-machines h2, li {
+  color: hotpink;
 }
 
 img {
