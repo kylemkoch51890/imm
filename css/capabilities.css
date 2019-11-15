@@ -4,7 +4,7 @@ header a.logo {
 }
 
 section.capabilities {
-  border: 10px dotted pink;
+  color: hotpink;
   margin-top: 15px;
   padding: 6vh 0;
   background-color: #e8e8e8;
@@ -19,12 +19,11 @@ section::after {
 /* Section Main */
 
 section.keywords {
-  border: 10px dotted pink;
   background-image: linear-gradient(180deg, rgba(77, 124, 138, .5), rgba(77, 124, 138, 0.4) 50%, rgba(77, 124, 138, 0.3) 60%, rgba(77, 124, 138, 0.1)), url(../images/machine_bkg.png);
   margin-top: 20px;
   margin-bottom: 30px;
   padding: 0;
-  color: #fff;
+  color: hotpink;
 }
 
 section.keywords .container {
