@@ -1,13 +1,3 @@
-/* Header */
-#subpage {
-  margin-top: 7em;
-}
-
-#subpage header {
-  margin-top: 15px;
-  padding: 50px 0 20px 0;
-}
-
 header a.logo {
   background: url(../images/IMM_Logo.svg) no-repeat 0 0;
 }
@@ -18,6 +8,10 @@ section.our-machines {
   text-align: left;
   padding: 30px;
   margin-top: 15px;
+}
+
+.needed {
+  border: 10px dotted pink;
 }
 
 .our-work {
@@ -62,6 +56,10 @@ section.our-machines {
   background: rgba(6, 101, 156, 1);
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+}
+
+.our-machines {
+  border: 10px dotted pink;
 }
 
 img {
