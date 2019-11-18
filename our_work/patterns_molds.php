@@ -25,7 +25,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2>Fixtures</h2>
+              <h2>Patterns &sol; Molds</h2>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
         <div class="container">
           <ul class="breadcrumb">
             <li><a href="../ourwork.html">Our Work</a></li>
-            <li>Fixtures</li>
+            <li>Patterns &sol; Molds</li>
           </ul>
         </div>
       </section>
@@ -101,7 +101,7 @@
   <footer>
     <div class="container">
       <h3><a href="http://inmacman.com" title="inmacman.com" target="_blank">Innovative Machine & Manufacturing</a></h3>
-      <ul class="socials">
+      <!-- <ul class="socials">
         <li>
           <a target="_blank" href="https://www.facebook.com/ServiceSpring/">
             <span class="icon-wrapper">
@@ -137,7 +137,7 @@
             </span>
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </footer>
   <!-- End Footer -->

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="css/nav_solid.css">
   <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/quote.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/ourwork.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -24,28 +24,153 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2>Get a Quote</h2>
+              <h2>Our Work</h2>
             </div>
           </div>
         </div>
       </header>
       <!-- End Header -->
 
-      <!-- Quote Form -->
-      <section class="quote-form">
+      <!-- Our Work -->
+      <section class="our-work">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 tint">
-              <iframe title="Embedded Wufoo Form" height="1000" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://webcontac.wufoo.com/embed/x49phxr1rb8poc/">
-                <a href="https://webcontac.wufoo.com/forms/x49phxr1rb8poc/">
-                  Fill out my Wufoo form!
-                </a>
-              </iframe>
+            <div class="col-md-3 cnc-lathe">
+              <a href="our_work/cnc_lathe.html">
+                <div class="thumbnail">
+                  <div id="grow">
+                    <img src="images/cnc_lathe/11_19_IMM_05.png" alt="Lathe">
+                  </div>
+                  <div class="caption">
+                    <h4>CNC Lathe</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 cnc-mill">
+              <a href="our_work/cnc_mill.html">
+                <div class="thumbnail">
+                  <div id="grow">
+                    <img src="images/cnc_mill/11_19_IMM_70.png" alt="Patterns">
+                  </div>
+                  <div class="caption">
+                    <h4>CNC Mill</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 design-reverse-engineering">
+              <a href="our_work/design_reverse_engineering.html">
+                <div class="thumbnail">
+                  <div id="grow">
+                    <img src="images/design_reverse_engineering/11_19_IMM_93.png" alt="Fixtures">
+                  </div>
+                  <div class="caption">
+                    <h4>Design &sol; Reverse Engineering</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 fixtures">
+              <a href="our_work/fixtures.html">
+                <div class="thumbnail">
+                  <div id="grow">
+                    <img src="images/placeholder.png" alt="Welding">
+                  </div>
+                  <div class="caption">
+                    <h4>Fixtures</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 welding">
+              <a href="our_work/welding.html">
+                <div class="thumbnail">
+                  <div id="grow">
+                    <img src="images/welding/11_19_IMM_34.png" alt="CNC Mill">
+                  </div>
+                  <div class="caption">
+                    <h4>Welding</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 assemblies">
+              <a href="our_work/assemblies.html">
+                <div class="thumbnail">
+                  <div id="grow">
+                    <img src="images/assemblies/11_19_IMM_68.png" alt="Assemblies">
+                  </div>
+                  <div class="caption">
+                    <h4>Assemblies</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 fabrication">
+              <a href="our_work/fabrication.html">
+                <div class="thumbnail">
+                  <div id="grow">
+                    <img src="images/placeholder.png" alt="Fabrication">
+                  </div>
+                  <div class="caption">
+                    <h4>Fabrication</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 patterns-molds">
+              <a href="our_work/patterns_molds.html">
+                <div class="thumbnail">
+                  <div id="grow">
+                    <img src="images/placeholder.png" alt="Design &sol; Reverse Engineering">
+                  </div>
+                  <div class="caption">
+                    <h4>Patterns &sol; Molds</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- End Our Work -->
+
+      <!-- Our Machines -->
+      <section class="our-machines">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Our Machines</h2>
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Quote Form -->
+      <!-- End Our Machines -->
+
 
     </main>
   </div>
@@ -54,7 +179,7 @@
   <footer>
     <div class="container">
       <h3><a href="http://inmacman.com" title="inmacman.com" target="_blank">Innovative Machine & Manufacturing</a></h3>
-      <ul class="socials">
+      <!-- <ul class="socials">
         <li>
           <a target="_blank" href="https://www.facebook.com/ServiceSpring/">
             <span class="icon-wrapper">
@@ -90,7 +215,7 @@
             </span>
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </footer>
   <!-- End Footer -->
@@ -102,7 +227,6 @@
     </div>
   </section>
   <!-- End Copyright Information -->
-
 
   <!-- Nav Bar -->
   <nav>

@@ -6,10 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Innovative Machine &amp; Manufacturing</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" media="screen" href="../css/nav_solid.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="../css/ourwork.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="../css/heroimages.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/nav_solid.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/quote.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -25,49 +24,28 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2>CNC Mill</h2>
+              <h2>Get a Quote</h2>
             </div>
           </div>
         </div>
       </header>
       <!-- End Header -->
 
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides">
-          <img src="../images/cnc_mill/11_19_IMM_70.png" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <img src="../images/cnc_mill/11_19_IMM_92.png" style="width:100%">
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
-
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-      </div>
-      <!-- End Slideshow -->
-
-      <!-- Our Machines -->
-      <section class="our-machines">
+      <!-- Quote Form -->
+      <section class="quote-form">
         <div class="container">
-          <ul class="breadcrumb">
-            <li><a href="../ourwork.html">Our Work</a></li>
-            <li>CNC Mill</li>
-          </ul>
+          <div class="row">
+            <div class="col-md-12 tint">
+              <iframe title="Embedded Wufoo Form" height="1000" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://webcontac.wufoo.com/embed/x49phxr1rb8poc/">
+                <a href="https://webcontac.wufoo.com/forms/x49phxr1rb8poc/">
+                  Fill out my Wufoo form!
+                </a>
+              </iframe>
+            </div>
+          </div>
         </div>
       </section>
-      <!-- End Our Machines -->
-
+      <!-- End Quote Form -->
 
     </main>
   </div>
@@ -76,7 +54,7 @@
   <footer>
     <div class="container">
       <h3><a href="http://inmacman.com" title="inmacman.com" target="_blank">Innovative Machine & Manufacturing</a></h3>
-      <ul class="socials">
+      <!-- <ul class="socials">
         <li>
           <a target="_blank" href="https://www.facebook.com/ServiceSpring/">
             <span class="icon-wrapper">
@@ -112,7 +90,7 @@
             </span>
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </footer>
   <!-- End Footer -->
@@ -125,20 +103,21 @@
   </section>
   <!-- End Copyright Information -->
 
+
   <!-- Nav Bar -->
   <nav>
     <ul>
       <li>
-        <a title="Home" href="../index.html">Home</a>
+        <a title="Home" href="index.html">Home</a>
       </li>
       <li>
-        <a title="Capabilities" href="../capabilities.html">Capabilities</a>
+        <a title="Capabilities" href="capabilities.html">Capabilities</a>
       </li>
       <li>
-        <a title="Get a Quote" href="../quote.html" aria-haspopup="true">Get a Quote</a>
+        <a title="Get a Quote" href="quote.html" aria-haspopup="true">Get a Quote</a>
         <ul>
           <li>
-            <a title="Quote Form" href="../quote.html">Quote Form</a>
+            <a title="Quote Form" href="quote.html">Quote Form</a>
           </li>
           <li>
             <a title="Account Application" href="images/IMM_AccountApplicationForm.pdf" target="_blank">Account Application</a>
@@ -150,76 +129,40 @@
     </ul>
     </li>
     <li>
-      <a title="Products" href="../ourwork.html" aria-haspopup="true">Our Work</a>
+      <a title="Products" href="ourwork.html" aria-haspopup="true">Our Work</a>
       <ul>
         <li>
-          <a title="Sub Link 1" href="../our_work/cnc_lathe.html">CNC Lathe</a>
+          <a title="Sub Link 1" href="our_work/cnc_lathe.html">CNC Lathe</a>
         </li>
         <li>
-          <a title="Sub Link 2" href="../our_work/cnc_mill.html">CNC Mill</a>
+          <a title="Sub Link 2" href="our_work/cnc_mill.html">CNC Mill</a>
         </li>
         <li>
-          <a title="Sub Link 2" href="../our_work/design_reverse_engineering.html">Design &sol; Reverse Engineering</a>
+          <a title="Sub Link 2" href="our_work/design_reverse_engineering.html">Design &sol; Reverse Engineering</a>
         </li>
         <li>
-          <a title="Sub Link 2" href="../our_work/fixtures.html">Fixtures</a>
+          <a title="Sub Link 2" href="our_work/fixtures.html">Fixtures</a>
         </li>
         <li>
-          <a title="Sub Link 2" href="../our_work/welding.html">Welding</a>
+          <a title="Sub Link 2" href="our_work/welding.html">Welding</a>
         </li>
         <li>
-          <a title="Sub Link 2" href="../our_work/assemblies.html">Assemblies</a>
+          <a title="Sub Link 2" href="our_work/assemblies.html">Assemblies</a>
         </li>
         <li>
-          <a title="Sub Link 2" href="../our_work/fabrication.html">Fabrication</a>
+          <a title="Sub Link 2" href="our_work/fabrication.html">Fabrication</a>
         </li>
         <li>
-          <a title="Sub Link 2" href="../our_work/patterns_molds.html">Patterns &sol; Molds</a>
+          <a title="Sub Link 2" href="our_work/patterns_molds.html">Patterns &sol; Molds</a>
         </li>
       </ul>
     </li>
     <li>
-      <a title="Contact Us" href="../contact.html">Contact Us</a>
+      <a title="Contact Us" href="contact.html">Contact Us</a>
     </li>
     </ul>
   </nav>
   <!-- End Nav Bar -->
-
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    // Next/previous controls
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    // Thumbnail image controls
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {
-        slideIndex = 1
-      }
-      if (n < 1) {
-        slideIndex = slides.length
-      }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-    }
-  </script>
-
 
 </body>
 

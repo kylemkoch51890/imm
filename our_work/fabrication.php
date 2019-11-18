@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Innovative Machine &amp; Manufacturing</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/nav_solid.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/ourwork.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/heroimages.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div id="subpage">
+
+    <main role="main" id="main">
+
+      <!-- Header -->
+      <header style="background-image("")">
+        <a class="logo" title="IMM" href="https://inmacman.com"></a>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Fabrication</h2>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+          <img src="../images/cnc_lathe/11_19_IMM_02.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="../images/cnc_lathe/11_19_IMM_05.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="../images/cnc_lathe/11_19_IMM_11.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="../images/cnc_lathe/11_19_IMM_29.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="../images/cnc_lathe/11_19_IMM_45.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="../images/cnc_lathe/11_19_IMM_50.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="../images/cnc_lathe/11_19_IMM_95.png" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>
+      <!-- End Slideshow -->
+
+      <!-- Our Machines -->
+      <section class="our-machines">
+        <div class="container">
+          <ul class="breadcrumb">
+            <li><a href="../ourwork.html">Our Work</a></li>
+            <li>Fabrication</li>
+          </ul>
+        </div>
+      </section>
+      <!-- End Our Machines -->
+
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <h3><a href="http://inmacman.com" title="inmacman.com" target="_blank">Innovative Machine & Manufacturing</a></h3>
+      <!-- <ul class="socials">
+        <li>
+          <a target="_blank" href="https://www.facebook.com/ServiceSpring/">
+            <span class="icon-wrapper">
+              <i aria-hidden="true" class="fa fa-facebook footer-icon"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/servicespring">
+            <span class="icon-wrapper">
+              <i aria-hidden="true" class="fa fa-twitter footer-icon"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.youtube.com/user/servicespringcorp">
+            <span class="icon-wrapper">
+              <i aria-hidden="true" class="fa fa-youtube footer-icon"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/company/service-spring-corporation">
+            <span class="icon-wrapper">
+              <i aria-hidden="true" class="fa fa-linkedin footer-icon"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/servicespringcorp/">
+            <span class="icon-wrapper">
+              <i aria-hidden="true" class="fa fa-instagram footer-icon"></i>
+            </span>
+          </a>
+        </li>
+      </ul> -->
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Copyright Information -->
+  <section class="mcalear">
+    <div class="container">
+      Copyright &copy; 2019 Innovative Machine &amp; Manufacturing &verbar; All Rights Reserved &verbar; A <a href="https://www.themcaleargroup.com" title="themcaleargroup.com" target="_blank"><span>McAlear Group</span></a> Company
+    </div>
+  </section>
+  <!-- End Copyright Information -->
+
+  <!-- Nav Bar -->
+  <nav>
+    <ul>
+      <li>
+        <a title="Home" href="../index.html">Home</a>
+      </li>
+      <li>
+        <a title="Capabilities" href="../capabilities.html">Capabilities</a>
+      </li>
+      <li>
+        <a title="Get a Quote" href="../quote.html" aria-haspopup="true">Get a Quote</a>
+        <ul>
+          <li>
+            <a title="Quote Form" href="../quote.html">Quote Form</a>
+          </li>
+          <li>
+            <a title="Account Application" href="images/IMM_AccountApplicationForm.pdf" target="_blank">Account Application</a>
+          </li>
+          <li>
+            <a title="Request for Credit Reference" href="images/IMM_RequestForCreditForm.pdf" target="_blank">Request for Credit Reference</a>
+          </li>
+      </li>
+    </ul>
+    </li>
+    <li>
+      <a title="Products" href="../ourwork.html" aria-haspopup="true">Our Work</a>
+      <ul>
+        <li>
+          <a title="Sub Link 1" href="../our_work/cnc_lathe.html">CNC Lathe</a>
+        </li>
+        <li>
+          <a title="Sub Link 2" href="../our_work/cnc_mill.html">CNC Mill</a>
+        </li>
+        <li>
+          <a title="Sub Link 2" href="../our_work/design_reverse_engineering.html">Design &sol; Reverse Engineering</a>
+        </li>
+        <li>
+          <a title="Sub Link 2" href="../our_work/fixtures.html">Fixtures</a>
+        </li>
+        <li>
+          <a title="Sub Link 2" href="../our_work/welding.html">Welding</a>
+        </li>
+        <li>
+          <a title="Sub Link 2" href="../our_work/assemblies.html">Assemblies</a>
+        </li>
+        <li>
+          <a title="Sub Link 2" href="../our_work/fabrication.html">Fabrication</a>
+        </li>
+        <li>
+          <a title="Sub Link 2" href="../our_work/patterns_molds.html">Patterns &sol; Molds</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a title="Contact Us" href="../contact.html">Contact Us</a>
+    </li>
+    </ul>
+  </nav>
+  <!-- End Nav Bar -->
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+
+</body>
+
+</html>

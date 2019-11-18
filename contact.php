@@ -58,7 +58,7 @@
                     </div>
                     <div class="col-sm-12">
                       <i aria-hidden="true" class="fa fa-phone footer-icon"></i>
-                      <h4>559.799.8742</h4>
+                      <h4>559.794.7970</h4>
                     </div>
                     <div class="col-sm-12">
                       <i aria-hidden="true" class="fa fa-inbox footer-icon"></i>
@@ -98,7 +98,7 @@
   <footer>
     <div class="container">
       <h3><a href="http://inmacman.com" title="inmacman.com" target="_blank">Innovative Machine & Manufacturing</a></h3>
-      <ul class="socials">
+      <!-- <ul class="socials">
         <li>
           <a target="_blank" href="https://www.facebook.com/ServiceSpring/">
             <span class="icon-wrapper">
@@ -134,7 +134,7 @@
             </span>
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </footer>
   <!-- End Footer -->

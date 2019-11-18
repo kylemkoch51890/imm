@@ -80,6 +80,7 @@
     <footer>
       <div class="container">
         <h3><a href="http://inmacman.com" title="inmacman.com" target="_blank">Innovative Machine & Manufacturing</a></h3>
+        <!--
         <ul class="socials">
           <li>
             <a target="_blank" href="https://www.facebook.com/ServiceSpring/">
@@ -116,7 +117,7 @@
               </span>
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </footer>
     <!-- End Footer -->
