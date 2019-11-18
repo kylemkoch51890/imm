@@ -1,6 +1,7 @@
 img {
   width: 100px;
   height: auto;
+  padding: 30px !important;
 }
 
 /* Slideshow container */
