@@ -54,7 +54,7 @@ section.our-machines {
   border-bottom-right-radius: 3px;
 }
 
-.fixtures h4 {
+.welding h4 {
   color: hotpink;
 }
 
@@ -62,7 +62,7 @@ section.our-machines {
   color: hotpink;
 }
 
-.patterns-molds h4 {
+.design-reverse-engineering h4 {
   color: hotpink;
 }
 
@@ -73,6 +73,7 @@ section.our-machines {
 img {
   min-width: 100%;
   min-height: 100%;
+  padding: 30px;
 }
 
 #grow {
