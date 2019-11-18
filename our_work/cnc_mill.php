@@ -25,7 +25,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2>Fabrication</h2>
+              <h2>CNC Mill</h2>
             </div>
           </div>
         </div>
@@ -37,31 +37,11 @@
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides">
-          <img src="../images/cnc_lathe/11_19_IMM_02.png" style="width:100%">
+          <img src="../images/cnc_mill/11_19_IMM_70.png" style="width:100%">
         </div>
 
         <div class="mySlides">
-          <img src="../images/cnc_lathe/11_19_IMM_05.png" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <img src="../images/cnc_lathe/11_19_IMM_11.png" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <img src="../images/cnc_lathe/11_19_IMM_29.png" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <img src="../images/cnc_lathe/11_19_IMM_45.png" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <img src="../images/cnc_lathe/11_19_IMM_50.png" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <img src="../images/cnc_lathe/11_19_IMM_95.png" style="width:100%">
+          <img src="../images/cnc_mill/11_19_IMM_92.png" style="width:100%">
         </div>
 
         <!-- Next and previous buttons -->
@@ -74,11 +54,6 @@
       <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
       </div>
       <!-- End Slideshow -->
 
@@ -87,7 +62,7 @@
         <div class="container">
           <ul class="breadcrumb">
             <li><a href="../ourwork.html">Our Work</a></li>
-            <li>Fabrication</li>
+            <li>CNC Mill</li>
           </ul>
         </div>
       </section>
@@ -101,7 +76,7 @@
   <footer>
     <div class="container">
       <h3><a href="http://inmacman.com" title="inmacman.com" target="_blank">Innovative Machine & Manufacturing</a></h3>
-      <ul class="socials">
+      <!-- <ul class="socials">
         <li>
           <a target="_blank" href="https://www.facebook.com/ServiceSpring/">
             <span class="icon-wrapper">
@@ -137,7 +112,7 @@
             </span>
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </footer>
   <!-- End Footer -->
