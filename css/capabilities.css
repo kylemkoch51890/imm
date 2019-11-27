@@ -6,8 +6,11 @@ header a.logo {
 section.capabilities {
   color: #1f1f1f;
   margin-top: 15px;
-  padding: 6vh 0;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  padding-right: 32px;
   background-color: #e8e8e8;
+  border-left: 32px solid rgba(0, 0, 0, .1);
 }
 
 section::after {
@@ -51,9 +54,10 @@ section.keywords .content h3 {
 }
 
 .col-md-6 {
-  margin-top: -6vh;
-  padding-top: 6vh;
+  margin-top: -3vh;
+  padding-top: 2vh;
 }
+
 
 .col-md-6:first-child {
   padding-left: 0;
@@ -63,6 +67,7 @@ section.keywords .content h3 {
   padding-left: 30px;
 }
 
+/*
 .col-md-6:last-child:before {
   position: absolute;
   content: "";
@@ -72,5 +77,6 @@ section.keywords .content h3 {
   bottom: 0;
   right: -100%;
   left: 0;
-  margin-bottom: -6vh;
+  margin-bottom: 1vh;
 }
+*/
