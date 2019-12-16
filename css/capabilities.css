@@ -26,7 +26,7 @@ section.keywords {
   margin-top: 20px;
   margin-bottom: 30px;
   padding: 0;
-  color: hotpink;
+  color: #fff;
 }
 
 section.keywords .container {
@@ -46,7 +46,7 @@ section.keywords .content {
   background: no-repeat center top;
   background-size: 75px 75px;
   padding: 15px;
-  background: rgba(31,31,31,.8);
+  /* background: rgba(31,31,31,.8); */
 }
 
 section.keywords .content h3 {
